@@ -1,24 +1,4 @@
-﻿/*.footer {
-    background-color: #007bff;*/ /* Основен син цвят */
-    /*color: white;
-    text-align: center;
-    padding: 20px;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    width: 1432px;
-}
-
-.social-links a {
-    color: white;
-    margin: 0 10px;
-    text-decoration: none;
-}
-
-    .social-links a:hover {
-        text-decoration: underline;
-    }*/
-
-.footer {
+﻿.footer {
     background-color: #f77fbe; /* Основен син цвят */
     color: white;
     text-align: center;

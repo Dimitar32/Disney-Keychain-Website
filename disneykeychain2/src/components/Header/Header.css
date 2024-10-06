@@ -1,36 +1,4 @@
-﻿/*.header {
-    display: flex;*/ /* Използване на flexbox за подреждане */
-    /*justify-content: space-between;*/ /* Разделя елементите на двата края на контейнера */
-    /*align-items: center;*/ /* Центрира елементите вертикално */
-    /*background-color: #007bff;*/ /* Син фон */
-    /*color: white;*/ /* Бял текст */
-    /*padding: 10px 20px;*/ /* Отстояние отгоре и отдолу, повече отстрани */
-    /*width: 100%;*/ /* Заема цялата ширина на вида */
-    /*width: 1432px;
-}
-
-    .header h1 {
-        margin: 15px;*/ /* Премахва маржините на заглавието */
-        /*font-size: 24px;*/ /* Задава размер на шрифта на заглавието */
-    /*}
-
-nav {
-    display: flex;*/ /* Използване на flexbox и за навигацията */
-/*}
-
-    nav a {
-        color: white;*/ /* Бял текст за линковете */
-        /*text-decoration: none;*/ /* Премахва подчертаването */
-        /*margin-left: 20px;*/ /* Отстояние между линковете */
-        /*font-weight: bold;*/ /* По-дебел шрифт за линковете */
-    /*}
-
-        nav a:hover {
-            text-decoration: underline;*/ /* Добавя подчертаване при ховър */
-        /*}*/
-
-
-.header {
+﻿.header {
     display: flex; /* Използване на flexbox за подреждане */
     justify-content: center;
     /*justify-content: space-between;*/ /* Разделя елементите на двата края на контейнера */
@@ -76,37 +44,6 @@ nav {
             color: white;
             text-decoration: underline; /* Добавя подчертаване при ховър */
 }
-
-/*.navLinks a {
-    color: white;
-    text-decoration: none;
-    font-size: 1.2rem;
-    padding: 10px 0;
-    transition: color 0.3s ease;
-    position: relative;
-    cursor: pointer;
-}
-
-    .navLinks a::before {
-        content: '';
-        position: absolute;
-        width: 0;
-        height: 3px;
-        bottom: -5px;
-        left: 0;
-        background-color: #f39c12;*/ /* Gold color for underline */
-        /*visibility: hidden;
-        transition: all 0.3s ease-in-out;
-    }
-
-    .navLinks a:hover::before {
-        visibility: visible;
-        width: 100%;
-    }
-
-    .navLinks a:hover {
-        color: #f39c12;*/ /* Gold color on hover */
-    /*}*/
 
 
 /* Медийни заявки */
