@@ -41,3 +41,54 @@
             color: white; /* Промяна на текста на по-тъмен нюанс */
             transform: translateX(10px); /* Леко преместване надясно при hover */
         }
+
+
+/* Медийни заявки за адаптиране на ширината на продуктовите карти */
+@media (max-width: 1200px) {
+
+    .general-info p {
+        font-size: 17px;
+    }
+
+    .general-info h2 {
+        font-size: 26px;
+    }
+}
+
+@media (max-width: 992px) {
+    .general-info p {
+        font-size: 15px;
+    }
+
+    .general-info h2 {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 768px) {
+    .general-info p {
+        font-size: 13px;
+    }
+
+    .general-info h2 {
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 576px) {
+    .general-info{
+        padding:1px;
+    }
+
+    .general-info p:hover {
+        transform: translateX(3px); /* Леко преместване надясно при hover */
+    }
+
+    .general-info p {
+        font-size: 13px;
+    }
+
+    .general-info h2 {
+        font-size: 20px;
+    }
+}

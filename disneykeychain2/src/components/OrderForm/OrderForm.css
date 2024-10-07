@@ -103,7 +103,11 @@ input {
 }
 
 @media (max-width: 576px) {
-    .order-form-container h2 {
-        font-size: 26px; /* Задава размер на шрифта */
+    .order-form-container {
+        font-size: 13px; /* Задава размер на шрифта */
     }
+
+        .order-form-container h2 {
+            font-size: 20px;
+        }
 }
