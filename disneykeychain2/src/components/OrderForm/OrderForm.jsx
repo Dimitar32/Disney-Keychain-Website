@@ -56,7 +56,7 @@ const OrderForm = () => {
             <h2>Поръчай от тук</h2>
             <form onSubmit={handleSubmit} className="order-form">
                 <label>
-                    Име:
+                    Име и Фамилия:
                     <input
                         type="text"
                         name="fullName"
