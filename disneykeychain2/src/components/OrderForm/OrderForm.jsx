@@ -1,118 +1,4 @@
-﻿//import React, { useState } from 'react';
-//import './OrderForm.css';
-
-//const OrderForm = () => {
-//    const [formData, setFormData] = useState({
-//        fullName: '',
-//        phone: '',
-//        address: '',
-//        city: '',
-//        postalCode: '',
-//        country: '',
-//        product: '',
-//        quantity: 0,
-//        additionalInfo: ''
-//    });
-
-//    const handleChange = (e) => {
-//        const { name, value } = e.target;
-//        setFormData({
-//            ...formData,
-//            [name]: value
-//        });
-//    };
-
-//    const handleSubmit = (e) => {
-//        e.preventDefault();
-//        console.log('Order submitted:', formData);
-//        // Тук можеш да добавиш логика за изпращане на данните към сървър или API
-//        alert('Поръчката е изпратена успешно!');
-//    };
-
-//    return (
-//        <section id="order-form" className="order-form-container">
-//            <h2>Поръчай от тук</h2>
-//            <form onSubmit={handleSubmit} className="order-form">
-//                <label>
-//                    Име:
-//                    <input
-//                        type="text"
-//                        name="fullName"
-//                        value={formData.fullName}
-//                        onChange={handleChange}
-//                        required
-//                    />
-//                </label>
-//                <label>
-//                    Телефон:
-//                    <input
-//                        type="text"
-//                        name="phone"
-//                        value={formData.phone}
-//                        onChange={handleChange}
-//                        required
-//                    />
-//                </label>
-//                <label>
-//                    Адрес на офис:
-//                    <input
-//                        type="text"
-//                        name="address"
-//                        value={formData.address}
-//                        onChange={handleChange}
-//                        required
-//                    />
-//                </label>
-//                <label>
-//                    Град:
-//                    <input
-//                        type="text"
-//                        name="city"
-//                        value={formData.city}
-//                        onChange={handleChange}
-//                        required
-//                    />
-//                </label>
-//                <label>
-//                    Продукт:
-//                    <input
-//                        type="text"
-//                        name="product"
-//                        value={formData.product}
-//                        onChange={handleChange}
-//                        required
-//                    />
-//                </label>
-//                <label>
-//                    Количество:
-//                    <input
-//                        type="number"
-//                        name="quantity"
-//                        value={formData.quantity}
-//                        onChange={handleChange}
-//                        min="1"
-//                        required
-//                    />
-//                </label>
-//                {/*<label>*/}
-//                {/*    Допълнителна информация:*/}
-//                {/*    <textarea*/}
-//                {/*        name="additionalInfo"*/}
-//                {/*        value={formData.additionalInfo}*/}
-//                {/*        onChange={handleChange}*/}
-//                {/*    ></textarea>*/}
-//                {/*</label>*/}
-//                <button type="submit">Поръчай{/*Изпрати поръчка*/}</button>
-//            </form>
-//        </section>
-//    );
-//};
-
-//export default OrderForm;
-
-
-
-import React, { useState } from 'react';
+﻿import React, { useState } from 'react';
 import emailjs from 'emailjs-com';
 import './OrderForm.css';
 
@@ -124,7 +10,6 @@ const OrderForm = () => {
         city: '',
         postalCode: '',
         country: '',
-        //product: '',
         quantityShrek: 0,
         quantityAriel: 0,
         additionalInfo: ''
@@ -160,7 +45,6 @@ const OrderForm = () => {
             city: '',
             postalCode: '',
             country: '',
-            //product: '',
             quantityShrek: 0,
             quantityAriel: 0,
             additionalInfo: ''
