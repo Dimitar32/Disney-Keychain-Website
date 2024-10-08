@@ -23,7 +23,7 @@
   "private": true,
   "scripts": {
     "dev": "vite",
-    "build": "npm run build",
+    "build": "npm run-script dev",
     "lint": "eslint .",
     "preview": "vite preview"
   },
